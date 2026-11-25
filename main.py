@@ -1,7 +1,13 @@
-"""Entry for make.fun news-image-20261124.
+"""Entry for make.fun news-image-20261124 (v2).
 
-Writes the bundled front-page image (entry.png, JPEG bytes) to the
+Writes the bundled one-page infographic (entry.png, JPEG bytes) to the
 grader's output directory as /output/entry.png. Standard library only.
+
+v2: a dense "world in one day" page, 29 stories, every one dated Tuesday
+24 November 2026. The image was drawn by draw_v2.py (PIL, vector-style
+art, exact text) and bundled here; this program only copies it verbatim,
+so two runs write identical bytes. See draw_v2.py for how the page was
+built, and the DATE CHECK strip at its foot for what was left out and why.
 """
 import os
 import shutil
